@@ -7,13 +7,35 @@ body{
 
 .header {
     display: flex;
-    justify-content: space-evenly; /* Items at the ends of the container */
+
     background-color: #1F2937;
     height: 600px;
     width:100%;
     margin:0;
-    padding:0;s
+    padding:0;
+    align-content: space-between;
+    flex-direction: column;
     
+}
+
+.awesome
+{
+    display:flex;
+    font-size: 48px;
+    color:#F9FAF8; 
+    flex-direction: column;
+    margin-left:400px; 
+    margin-top:150px;
+    font-weight: bolder;
+}
+
+.logolinks
+
+{
+    display:flex;
+    flex-direction: row;
+    margin-left:400px;
+     
 }
 
 
@@ -24,7 +46,8 @@ body{
     font-weight: bolder;
     margin-bottom: auto;
     margin-top:20px;
-    margin-right:100px;
+    margin-right:500px;
+    
     
 }
 
@@ -39,4 +62,9 @@ body{
     margin-top:20px;
 }
 
-
+.sub
+{   DISPLAY:flex;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin-left:400px;
+}
