@@ -28,7 +28,8 @@ body{
     margin-left:21%; 
     margin-top:150px;
     font-weight: bolder;
-    flex-wrap: nowrap;
+    max-width: 100%;
+    width:100%;
 }
 
 .logolinks
@@ -72,8 +73,12 @@ body{
 {   DISPLAY:flex;
     font-size: 18px;
     color:#E5E7EB;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    height:fit-content;
+    width:fit-content;
     margin-left:21%; 
+    width:600px;
+    margin-top:1%;
 }
 
 .buttons
@@ -98,9 +103,41 @@ body{
     padding:0px;
     justify-content: center;
     border-width: 10px;
-    border-right-width: 30px;
-    border-left-width:30px;
+    border-right-width: 33px;
+    border-left-width:33px;
+    margin-top:1%;
 
 
 }
 
+.image{
+    
+    display: flex;
+    flex-direction: row;
+    max-width:50%;
+    max-height:50%;
+   
+    margin-top:4%
+
+}
+
+.them
+{
+    display:flex;
+    justify-content: space-between;
+}
+.this
+{
+    margin-left:14%;
+    margin-right: 9%;
+}
+
+.random
+{
+    display:flex;
+    justify-content: center;
+    margin-top:2%;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
