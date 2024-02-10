@@ -140,4 +140,30 @@ body{
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
+    margin-bottom:3%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-bottom:3%;
+    border-color:#3882F6;
+    border-image: fill;
+    
+}
+
+.images > div {
+    width: 200px; /* Set a fixed width for the container */
+    height: 200px; /* Set a fixed height for the container */
+    margin-right: 80px; /* Smaller gap between images */
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+
+.images img {
+    width: 100%; /* Ensure images fill their containers */
+    height: 100%; /* Ensure images fill their containers */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius:15px;
 }
