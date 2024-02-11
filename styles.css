@@ -114,9 +114,12 @@ body{
     
     display: flex;
     flex-direction: row;
-    max-width:55%;
-    max-height:45%;
+    max-width:60%;
+    max-height:60%;
     margin-top:4%;
+    width:500px;
+    height:500px;
+    margin-right:70%;
 
 }
 
@@ -128,7 +131,7 @@ body{
 .this
 {
     margin-left:15%;
-    margin-right: 9%;
+    margin-right: 5%;
 }
 
 .random
@@ -208,8 +211,6 @@ p{
     background-size: 50% 50%;
     background-repeat: no-repeat;
     margin-bottom:5%;
-   
-   
     width:55%;
     margin-left:23%;
     height:140px;
@@ -223,9 +224,8 @@ p{
     font-size: 24px;
     font-weight: bolder;
     margin-right:20%;
-    margin-left:13%;
+    margin-left:12%;
     flex-direction:column;
-
     justify-content:center;
 }
 
@@ -235,4 +235,30 @@ p{
     font-size:16px;
     font-weight: lighter;
     justify-content:center;
+    
 }
+
+.lil
+
+{
+    background:#3882F6;
+    border-radius:8px;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    color:white;
+    margin-top:44%;
+    margin-right:30%;
+    min-width:130px;
+    min-height:35px;
+    width:130px;
+    height:35px;
+    font-weight: bold;
+    
+
+}
+
+.almost
+{
+    display:flex;
+}
+
