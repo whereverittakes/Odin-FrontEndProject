@@ -4,11 +4,14 @@ body{
     padding:0;
     flex-wrap: nowrap;
     box-sizing: border-box;
+
 }
+
+
 
 .header {
     display: flex;
-    
+    font-size:60px;
     background-color: #1F2937;
     height: 600px;
     width:100%;
@@ -203,6 +206,12 @@ p{
     margin-left:70%;
     font-style: normal;
     font-weight: 900;
+}
+
+.logo i {
+    font-size: 80px; /* Adjust the size as needed */
+    margin-right:40px;
+   
 }
 
 .bg{

@@ -30,5 +30,7 @@ And setting them to 100% of their width, 100% of their height, and most importan
 Use object-fit:cover;, ensuring they maintain their aspect ratio.
 
 
-    There were quite other challenging parts as well, but that was by far the most challenging of all of them.
+There were quite other challenging parts as well, but that was by far the most challenging of all of them.
+
+    Click here to see a live preview: https://htmlpreview.github.io/?https://github.com/whereverittakes/Odin-FrontEndProject/blob/main/index.html
 
