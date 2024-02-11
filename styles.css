@@ -147,14 +147,14 @@ body{
     justify-content: center;
     border-color:#3882F6;
     border-image: fill;
-    margin-bottom:7%;
+    margin-bottom:9%;
     
 }
 
 .images > div {
     width: 200px; /* Set a fixed width for the container */
     height: 200px; /* Set a fixed height for the container */
-    margin-right: 80px; /* Smaller gap between images */
+    margin-right: 80px; /* gap between images */
     border: 5px solid #3882F6;
     border-radius: 20px;
 }
@@ -171,5 +171,5 @@ body{
     margin-top:2%;
     font-size: 18px;
     text-align: center;
-    margin-bottom:10%;
+    
 }
