@@ -120,6 +120,7 @@ body{
     width:500px;
     height:500px;
     margin-right:70%;
+    
 
 }
 
@@ -260,5 +261,18 @@ p{
 .almost
 {
     display:flex;
+}
+
+.lastbg
+{
+    display:flex;
+    justify-content: center;
+    background-color:#1F2937;
+    font-size: 18px;
+    color:#E5E7EB;
+    height:85px;
+    text-align: center;
+    flex-direction: column;
+    font-weight: normal;
 }
 
