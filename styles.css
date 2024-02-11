@@ -181,7 +181,7 @@ body{
     justify-content: center;
     align-items: center;
     height:500px;
-    margin-bottom:10%;
+    margin-bottom:7%;
 }
 
 .text2
@@ -199,4 +199,40 @@ p{
     margin-left:70%;
     font-style: normal;
     font-weight: 900;
+}
+
+.bg{
+    display:flex;
+    background-color:#3882F6;
+    background-position:center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    margin-bottom:5%;
+   
+   
+    width:55%;
+    margin-left:23%;
+    height:140px;
+    border-radius: 9px;
+}
+
+.text3
+{
+    display:flex;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right:20%;
+    margin-left:13%;
+    flex-direction:column;
+
+    justify-content:center;
+}
+
+.text4
+{
+    display:flex;
+    font-size:16px;
+    font-weight: lighter;
+    justify-content:center;
 }
